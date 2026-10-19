@@ -36,13 +36,13 @@ ol {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  padding-left: 0;
   font-size: 18px;
   line-height: auto;
   letter-spacing: 0;
   list-style: circle;
   list-style-position: outside;
   white-space: nowrap;
-  padding-left: 0;
 }
 
 .header__links-list-item {
@@ -165,12 +165,12 @@ ol {
 
 .lots_heading {
   margin: 40px;
+  padding-left: 0;
   color: black;
   font-weight: 700;
   font-size: 40px;
   letter-spacing: 0;
   text-transform: uppercase;
-  padding-left: 0;
 }
 
 .lots__card-list {
@@ -189,8 +189,8 @@ ol {
 }
 
 .card_link {
-  height: 100%;
   display: block;
+  height: 100%;
 }
 
 .card {
@@ -217,6 +217,7 @@ ol {
   top: 48px;
   left: 40px;
   max-width: 254px;
+  margin: 0;
   color: #fff;
   font-weight: 700;
   font-size: 22px;
@@ -224,7 +225,6 @@ ol {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   text-transform: uppercase;
-  margin: 0;
 }
 
 .card__text {
@@ -232,19 +232,19 @@ ol {
   bottom: 48px;
   left: 40px;
   max-width: 254px;
+  margin: 0;
   color: #fff;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  margin: 0;
 }
 
 .lots__look-more-link {
+  display: inline-block;
   margin-left: 40px;
   font-weight: 400;
   font-size: 20px;
   text-underline-offset: 4px;
-  display: inline-block;
 }
 
 .about {
@@ -252,13 +252,13 @@ ol {
   background-color: #fff;
 }
 
-.about__column{
+.about__column {
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
 }
 
-.about__logo{
+.about__logo {
   display: flex;
   justify-self: center;
   justify-content: center;
@@ -299,11 +299,11 @@ ol {
   background-color: #ffff;
 }
 
-.footer__adress{
+.footer__adress {
   max-width: 254px;
 }
 
-.footer__menu{
+.footer__menu {
   display: flex;
   flex-direction: column;
   font-size: 18px;
@@ -311,8 +311,8 @@ ol {
 }
 
 .footer__menu-list {
-  list-style: none;
   padding-left: 0;
+  list-style: none;
 }
 
 .footer__menu-link_active {
@@ -329,8 +329,8 @@ ol {
   flex-direction: row;
   justify-content: flex-end;
   gap: 48px;
-  list-style: none;
   padding-left: 0;
+  list-style: none;
 }
 
 .footer__social-icon {
